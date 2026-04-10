@@ -1,4 +1,4 @@
-# Streamforge — Real-Time Event Streaming Pipeline
+# Streamforge
 
 A simple real-time event streaming system built using **Kafka + Avro + Python**.
 
@@ -122,20 +122,9 @@ docker compose up -d
 
 ---
 
-### 4. Create topic
-
-```
-docker exec -it <kafka-container> kafka-topics \
-  --create \
-  --topic user-topic \
-  --bootstrap-server localhost:9092 \
-  --partitions 1 \
-  --replication-factor 1
-```
-
 ---
 
-### 5. Test the serialization and deserialization layer
+### 4. Test the serialization and deserialization layer
 
 ```
 python test.py
@@ -143,7 +132,7 @@ python test.py
 
 ---
 
-### 6. Run Writer Service
+### 5. Run Writer Service
 
 ```
 python -m writer_service.app
@@ -161,7 +150,7 @@ python -m reader_service.app
 
 ## Inspiration
 
-Concepts inspired by *Designing Data-Intensive Applications*
+Concepts inspired by *Designing Data-Intensive Applications* chapter-4 Avro
 
 ---
 
