@@ -86,8 +86,8 @@ streamforge/
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/your-username/streamforge.git
-cd streamforge
+git clone https://github.com/your-username/event-streaming-pipeline.git
+cd event-streaming-pipeline
 ```
 
 ---
