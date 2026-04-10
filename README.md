@@ -1,4 +1,4 @@
-# Streamforge
+# Event Streaming Pipeline
 
 A simple real-time event streaming system built using **Kafka + Avro + Python**.
 
